@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    
+    <url>
+        <loc>http://mozg.com.br/app/fizzi</loc>
+        <lastmod>2024-07-23T00:45:15-03:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    
+    <url>
+        <loc>http://mozg.com.br/nodejs/introducao-ao-nodejs-com-express</loc>
+        <lastmod>2024-07-23T00:45:15-03:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    
+    <url>
+        <loc>http://mozg.com.br/distros/distros</loc>
+        <lastmod>2024-07-23T00:45:15-03:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    
+    <url>
+        <loc>http://mozg.com.br/magento2/magento2</loc>
+        <lastmod>2024-07-23T00:45:15-03:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    
+    <url>
+        <loc>http://mozg.com.br/ubuntu/composer</loc>
+        <lastmod>2024-07-23T00:45:15-03:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    
+    <url>
+        <loc>http://mozg.com.br/magento/magento1</loc>
+        <lastmod>2024-07-23T00:45:15-03:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    
+    <url>
+        <loc>http://mozg.com.br/ubuntu/zend-guard-loader</loc>
+        <lastmod>2024-07-23T00:45:15-03:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    
+    <url>
+        <loc>http://mozg.com.br/ubuntu/bem-vindos</loc>
+        <lastmod>2024-07-23T00:45:15-03:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</urlset>

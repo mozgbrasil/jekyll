@@ -1,0 +1,91 @@
+{
+  
+
+    "app-fizzi": {
+      "title": "Fizzy - Inovação e Eficiência para seu Negócio",
+      "url": " /app/fizzi",
+      "author": "[&quot;Seu Nome&quot;]",
+      "category": "app",
+      "tags"     : "Angular, Ionic, Capacitor, Django, NestJS, and Express",
+      "date"     : "19 Jul 2024"
+    }
+    ,
+  
+
+    "nodejs-introducao-ao-nodejs-com-express": {
+      "title": "Introdução ao Node.js com Express",
+      "url": " /nodejs/introducao-ao-nodejs-com-express",
+      "author": "Marcio dos Santos Amorim",
+      "category": "nodejs",
+      "tags"     : "nodejs, express, and javascript",
+      "date"     : "28 Jun 2024"
+    }
+    ,
+  
+
+    "distros-distros": {
+      "title": "Distros",
+      "url": " /distros/distros",
+      "author": "Marcio Amorim",
+      "category": "distros",
+      "tags"     : "magento2 and php",
+      "date"     : "03 Dec 2021"
+    }
+    ,
+  
+
+    "magento2-magento2": {
+      "title": "Magento2",
+      "url": " /magento2/magento2",
+      "author": "Marcio Amorim",
+      "category": "magento2",
+      "tags"     : "magento2 and php",
+      "date"     : "05 Feb 2019"
+    }
+    ,
+  
+
+    "ubuntu-composer": {
+      "title": "Composer",
+      "url": " /ubuntu/composer",
+      "author": "Marcio Amorim",
+      "category": "ubuntu",
+      "tags"     : "magento2 and php",
+      "date"     : "04 Oct 2016"
+    }
+    ,
+  
+
+    "magento-magento1": {
+      "title": "Magento1",
+      "url": " /magento/magento1",
+      "author": "Marcio Amorim",
+      "category": "magento",
+      "tags"     : "magento and php",
+      "date"     : "26 Apr 2016"
+    }
+    ,
+  
+
+    "ubuntu-zend-guard-loader": {
+      "title": "Zend Guard Loader",
+      "url": " /ubuntu/zend-guard-loader",
+      "author": "Marcio Amorim",
+      "category": "ubuntu",
+      "tags"     : "magento2 and php",
+      "date"     : "26 Apr 2016"
+    }
+    ,
+  
+
+    "ubuntu-bem-vindos": {
+      "title": "Sejam Bem Vindos",
+      "url": " /ubuntu/bem-vindos",
+      "author": "Marcio Amorim",
+      "category": "ubuntu",
+      "tags"     : "magento2 and php",
+      "date"     : "20 Apr 2016"
+    }
+    
+  
+}
