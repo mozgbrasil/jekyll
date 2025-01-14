@@ -2,9 +2,64 @@
 
 ![valid XHTML][checkmark]
 
-# jekyll
+# Jekyll
 
 - https://mozg.com.br/jekyll/
+
+## Run
+
+```bash
+git clone ☝️
+
+cd /home/marcio/dados/jekyll/
+code --new-window .
+
+ruby --version
+bundle --version
+
+rm Gemfile.lock
+bundle install
+
+JEKYLL_ENV=production bundle exec jekyll serve --watch --verbose
+```
+
+## Executando no container
+
+```bash
+├── Terminal
+│   ├── Run Task
+│       ├── Serve
+│       ├── OR
+│       ├── Build
+```
+
+## release
+
+```bash
+gh release create v1.0.0 --generate-notes
+```
+
+## publish - angular dist
+
+```bash
+
+rm -fr /home/marcio/dados/mozgbrasil.github.io/docs
+
+# cp -r /home/marcio/dados/nx-ionic-angular/dist/apps/main-app/browser /home/marcio/dados/jekyll/docs
+# cp -r /home/marcio/dados/nx-ionic-angular/dist/apps/material.angular.io/browser /home/marcio/dados/jekyll/docs
+cp -r /home/marcio/dados/vitepress/docs/.vitepress/dist /home/marcio/dados/mozgbrasil.github.io/docs
+
+cp /home/marcio/dados/mozgbrasil.github.io/CNAME /home/marcio/dados/mozgbrasil.github.io/docs
+
+git status
+git add --all
+git commit -m "angular ssg"
+git status
+git push --verbose
+```
+
+
+
 
 ## Sinopse
 
