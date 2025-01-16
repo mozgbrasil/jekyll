@@ -6,6 +6,10 @@ order: 4
 excerpt: "Fale conosco e tire suas dúvidas, para um melhor suporte seja o mais detalhista possível descrevendo sua necessidade ou ocorrência"
 ---
 
+<script src="https://cdn.jsdelivr.net/npm/@mozgbrasil/web-components"></script>
+
+<mozg-core></mozg-core>
+
 <div class="container bs-docs-container">
     <div class="row">
         <div role="main" class="">
