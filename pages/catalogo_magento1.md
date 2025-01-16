@@ -99,10 +99,10 @@ array_repo_free:
 {% for item in page.array_repo_version %}
   <div class="col-sm-6 col-md-4">
       <div class="card">
-          <img class="card-img-top" src="/assets/images/free-stock-photos.gif">
+          <img class="card-img-top" src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/images/free-stock-photos.gif">
           <div class="card-block">
               <figure class="card-profile">
-                  <img src="/assets/images/logos/theme-logo-white.png" class="card-profile-avatar" alt="">
+                  <img src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/images/logos/theme-logo-white.png" class="card-profile-avatar" alt="">
               </figure>
               <h4 class="card-title mt-3">{{ item.title }}</h4>
               <div class="card-meta">
@@ -123,10 +123,10 @@ array_repo_free:
 
   <div class="col-sm-6 col-md-4">
       <div class="card">
-          <img class="card-img-top" src="/assets/images/free-stock-photos.gif">
+          <img class="card-img-top" src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/images/free-stock-photos.gif">
           <div class="card-block">
               <figure class="card-profile">
-                  <img src="/assets/images/logos/theme-logo-white.png" class="card-profile-avatar" alt="">
+                  <img src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/images/logos/theme-logo-white.png" class="card-profile-avatar" alt="">
               </figure>
               <h4 class="card-title mt-3">{{ item.title }}</h4>
               <div class="card-meta">

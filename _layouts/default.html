@@ -9,8 +9,8 @@ layout: compress
     </head>
 
     <body>
-        <script src="/assets/js/font-awesome-5.15.3.min.js"></script>
-        <script src="/assets/js/aos-2.3.4.js"></script>
+        <script src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/js/font-awesome-5.15.3.min.js"></script>
+        <script src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/js/aos-2.3.4.js"></script>
         <script>
 AOS.init({
 easing: 'ease-out-back',
@@ -32,8 +32,8 @@ duration: 1000
             <nav class="navbar navbar-expand-md navbar-dark mb-1">
                 <div class="container-fluid">
                     <div class="text-center">
-                        <a class=" " href="/">
-                            <img alt="" class="d-inline-block align-top" src="/assets/images/logos/Russian_Army_Star.svg" width="50"/>
+                        <a class=" " href="{{ '' | prepend: site.baseurl | prepend: site.url }}/">
+                            <img alt="" class="d-inline-block align-top" src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/images/logos/Russian_Army_Star.svg" width="50"/>
                         </a>
                         <p>
                             <span class="badge bg-dark">MOZG</span>
@@ -45,10 +45,10 @@ duration: 1000
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item {% if page.url == '/' %} active{% endif %}">
-                                <a class="nav-link {% if page.url == '/' %} active{% endif %}" href="/">Visão geral</a>
+                                <a class="nav-link {% if page.url == '/' %} active{% endif %}" href="{{ '' | prepend: site.baseurl | prepend: site.url }}/">Visão geral</a>
                             </li>
                             <li class="nav-item {% if page.url == '/sobre-nos/' %} active{% endif %}">
-                                <a class="nav-link {% if page.url == '/sobre-nos/' %} active{% endif %}" href="/sobre-nos/">Sobre</a>
+                                <a class="nav-link {% if page.url == '/sobre-nos/' %} active{% endif %}" href="{{ '' | prepend: site.baseurl | prepend: site.url }}/sobre-nos/">Sobre</a>
                             </li>
                             {% comment %}
 <li class="nav-item dropdown {% if page.url == '/catalogo/' %} active{% endif %}">
@@ -57,18 +57,18 @@ aria-expanded="false">
 Catálogo
 </a>
 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-<li><a class="dropdown-item" href="/catalogo_magento1/">Magento 1</a></li>
+<li><a class="dropdown-item" href="{{ '' | prepend: site.baseurl | prepend: site.url }}/catalogo_magento1/">Magento 1</a></li>
 </ul>
 </li>
 <li class="nav-item {% if page.url == '/contato/' %} active{% endif %}">
-<a href="/curriculum/" class="nav-link {% if page.url == '/contato/' %} active{% endif %}">Curriculum</a>
+<a href="{{ '' | prepend: site.baseurl | prepend: site.url }}/curriculum/" class="nav-link {% if page.url == '/contato/' %} active{% endif %}">Curriculum</a>
 </li>
 {% endcomment %}
                             <li class="nav-item {% if page.url == '/artigos/' %} active{% endif %}">
-                                <a class="nav-link {% if page.url == '/artigos/' %} active{% endif %}" href="/artigos/">Artigos</a>
+                                <a class="nav-link {% if page.url == '/artigos/' %} active{% endif %}" href="{{ '' | prepend: site.baseurl | prepend: site.url }}/artigos/">Artigos</a>
                             </li>
                             <li class="nav-item {% if page.url == '/contato/' %} active{% endif %}">
-                                <a class="nav-link {% if page.url == '/contato/' %} active{% endif %}" href="/contato/">Contato</a>
+                                <a class="nav-link {% if page.url == '/contato/' %} active{% endif %}" href="{{ '' | prepend: site.baseurl | prepend: site.url }}/contato/">Contato</a>
                             </li>
                         </ul>
 
@@ -100,9 +100,9 @@ Catálogo
                                         <h1>Fizzy</h1>
                                         <h3>Inovação para seu negócio</h3>
                                         <p>disponível para <a href="https://nx-ionic-angular.vercel.app/">Web</a> e <a href="https://play.google.com/store/apps/details?id=com.mozg.android.fizzy">Android</a>.</p>
-                                        <a class="android-badge" href="https://play.google.com/store/apps/details?id=com.mozg.android.fizzy"><img alt="Disponível no Google Play" src="/assets/images/google-play-badge.png"/></a>
+                                        <a class="android-badge" href="https://play.google.com/store/apps/details?id=com.mozg.android.fizzy"><img alt="Disponível no Google Play" src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/images/google-play-badge.png"/></a>
                                     </div>
-                                    <img alt="" src="/assets/images/ch1.webp">
+                                    <img alt="" src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/images/ch1.webp">
                                 </div>
                             </section>
                             {% comment %}
@@ -126,7 +126,7 @@ Sobre mim
 atendendo diversas
 empresas no Brasil.
 </p>
-<a class="btn btn-lg btn-primary" href="/curriculum/" role="button">Veja mais</a>
+<a class="btn btn-lg btn-primary" href="{{ '' | prepend: site.baseurl | prepend: site.url }}/curriculum/" role="button">Veja mais</a>
 </div>
 </div>
 </div>
@@ -142,7 +142,7 @@ Sobre o Magento
 <div class="card-body">
 <p class="card-text">Desde 2008 atuei com foco exclusivo na plataforma Magento onde desenvolvi o
 seguinte catálogo de módulos para Magento 1</p>
-<a class="btn btn-lg btn-primary" href="/catalogo_magento1/" role="button">Acesse aqui</a>
+<a class="btn btn-lg btn-primary" href="{{ '' | prepend: site.baseurl | prepend: site.url }}/catalogo_magento1/" role="button">Acesse aqui</a>
 </div>
 </div>
 </div>
@@ -316,13 +316,13 @@ Sobre o React Native
                         <div class="col">
                             Desenvolvido utilizando
                             <a href="https://jekyllrb.com/">
-                                <img alt="Jekyll" src="/assets/images/jekyll-logo.webp" width="100">
+                                <img alt="Jekyll" src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/images/jekyll-logo.webp" width="100">
                             </a>
                         </div>
                         <div class="col ">
                             Orgulhosamente hospedado por
                             <a href="https://github.com">
-                                <img alt="GitHub • Social coding" src="/assets/images/github-logo.png" width="100">
+                                <img alt="GitHub • Social coding" src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/images/github-logo.png" width="100">
                             </a>
                         </div>
                     </div>

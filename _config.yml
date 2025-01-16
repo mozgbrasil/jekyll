@@ -97,9 +97,10 @@ excerpt_separator: "[-----]"
 
 # mode: dev | production
 url: http://mozg.com.br
+# url: http://127.0.0.1:4000
 mode: production
 devurl: http://127.0.0.1:4000
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/jekyll" # the subpath of your site, e.g. /blog/
 title: MOZG
 tagline: Desenvolvedor de softwares
 description: > # this means to ignore newlines until "baseurl:"

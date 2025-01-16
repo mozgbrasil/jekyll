@@ -12,13 +12,13 @@ when 12 %} {% capture var_color %}green {% endcapture %} {% endcase %}
 <div class="col-sm-6 col-md-4">
   <a href="{{ post.url }}">
     <div class="card">
-      <img class="card-img-top" src="/assets/images/free-stock-photos.gif" />
+      <img class="card-img-top" src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/images/free-stock-photos.gif" />
       <div class="card-block">
         <figure class="card-profile">
           <img
             alt=""
             class="card-profile-avatar"
-            src="/assets/images/logos/theme-logo-white.png"
+            src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/images/logos/theme-logo-white.png"
           />
         </figure>
         <h4 class="card-title mt-3">{{ post.title }}</h4>

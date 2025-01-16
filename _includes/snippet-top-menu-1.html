@@ -4,7 +4,7 @@
             <div class="ui logo shape">
                 <div class="sides">
                     <div class="active ui side">
-                        <a class="ui logo icon image" href="/">
+                        <a class="ui logo icon image" href="{{ '' | prepend: site.baseurl | prepend: site.url }}/">
                             <img class="ui image" height="40" src="https://0.gravatar.com/avatar/38385ec9b5375a77513a4dad6aebca08?s=180g" width="40">
                         </a>
                     </div>
@@ -18,7 +18,7 @@
         <div class="right menu">
             <div class="item" style="width:170px !important;">
                 {% include snippet-facebook-like-button.html %}
-                <img class="ui image" height="2" src="/assets/images/template/1x1px.png" width="1">
+                <img class="ui image" height="2" src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/images/template/1x1px.png" width="1">
                 {% include snippet-facebook-send-button.html %}
             </div>
             <div class="item" style="width:190px !important;">

@@ -14,7 +14,7 @@ excerpt: "Visualize os artigos classificado por Categorias, utilize também o no
     <div class=" {% if inverted == '0' %} inverted {% endif %}">
         <h1 id="btn-groups" class="page-header">
             <a id="{{ category.first }}"></a>
-            <a class="" href="/category/#{{ category.first }}">{{ category.first | capitalize }}</a>
+            <a class="" href="{{ '' | prepend: site.baseurl | prepend: site.url }}/category/#{{ category.first }}">{{ category.first | capitalize }}</a>
         </h1>
         {% for post in site.categories[category.first] %}
         <div id="callout-btn-group-tooltips" class="bs-callout bs-callout-warning">

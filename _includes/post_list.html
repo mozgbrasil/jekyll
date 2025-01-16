@@ -30,7 +30,7 @@
                 {% elsif page == 1 %}
                     <a class="item" href="{{ crturl }}">{{ page }}</a>
                 {% else %}
-                    <a class="item" href="/{{ site.paginate_path | prepend: crturl | replace: ':num', page }}">{{ page }}</a>
+                    <a class="item" href="{{ '' | prepend: site.baseurl | prepend: site.url }}/{{ site.paginate_path | prepend: crturl | replace: ':num', page }}">{{ page }}</a>
                 {% endif %}
             {% endfor %}
 
@@ -38,8 +38,8 @@
                 <a class="item" href="{{ paginator.next_page_path | prepend: crturl }}">»</a>
             {% endif %}
 
-            <script type="text/javascript" src="/assets/js/internal/pagination.js"></script>
-            <script type="text/javascript" src="/assets/js/internal/listAndPagi.js"></script>
+            <script type="text/javascript" src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/js/internal/pagination.js"></script>
+            <script type="text/javascript" src="{{ '' | prepend: site.baseurl | prepend: site.url }}/assets/js/internal/listAndPagi.js"></script>
 
             </div>
         </div>

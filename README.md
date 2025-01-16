@@ -20,6 +20,7 @@ bundle --version
 rm Gemfile.lock
 bundle install
 
+JEKYLL_ENV=dev bundle exec jekyll serve --watch --verbose
 JEKYLL_ENV=production bundle exec jekyll serve --watch --verbose
 ```
 
