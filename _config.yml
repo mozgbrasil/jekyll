@@ -96,7 +96,8 @@ excerpt_separator: "[-----]"
 # site settings
 
 # mode: dev | production
-url: http://mozg.com.br
+# url: http://mozg.com.br
+url: https://mozgbrasil.github.io
 # url: http://127.0.0.1:4000
 mode: production
 devurl: http://127.0.0.1:4000
