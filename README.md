@@ -1,4 +1,4 @@
-[checkmark]: https://raw.githubusercontent.com/mozgbrasil/mozgbrasil.github.io/refs/heads/main/docs/logo-mini.png "MOZG"
+[checkmark]: https://mozg.com.br/logo-mini.png "MOZG"
 
 ![valid XHTML][checkmark]
 
